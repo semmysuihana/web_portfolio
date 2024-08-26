@@ -1,0 +1,120 @@
+.hero{
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    
+}
+
+/* Style for the card image containers */
+.card-img {
+    width: 100%;
+    height: 100%; /* Ensure the image covers the container height */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+  }
+  
+  /* Optional: Style for the card image container to maintain aspect ratio */
+  .card-img-container {
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+  }
+  .card-img-top{
+    background-size: cover;
+  }
+  .card {
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure content stays within card */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  }
+  
+  .card-img-top {
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Crop the image to fit */
+  }
+  
+  .card-body {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 20px; /* Increased padding for better spacing */
+  }
+  
+  .card-title {
+    font-size: 1.5rem; /* Larger title font */
+    margin-bottom: 0.5rem; /* Space below title */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Set text size */
+    color: #6c757d; /* Gray color for text */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Custom button color */
+    border-color: #007bff; /* Button border color */
+    border-radius: 5px; /* Rounded button corners */
+    padding: 10px 20px; /* Padding for button */
+    text-transform: uppercase; /* Uppercase text */
+  }
+  
+  .container {
+    max-width: 1200px; /* Limit container width */
+  }
+  .card-project {
+    overflow: hidden; /* Ensure content stays within card bounds */
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  
+  .card-project .card-img-top {
+    transition: transform 0.5s ease; /* Smooth zoom transition */
+  }
+  
+  .card-project:hover .card-img-top {
+    transform: scale(1.1); /* Zoom the image */
+  }
+  
+  
+  .modal-content {
+    border-radius: 15px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  /* Optional: Ensure that the card images fit their containers */
+
+  /* Sticky Tabs */
+/* Default Sticky Tabs Style */
+.sticky-tabs {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+  margin-bottom: 20px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Sticky Tabs Changed Style */
+.sticky-tabs.sticky-active {
+  background-color: #f8f9fa; /* Change background color */
+  border-bottom: 2px solid #007bff; /* Change border color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Style for nav-link when sticky */
+.sticky-tabs.sticky-active .nav-link {
+  color: #007bff; /* Change text color */
+  font-weight: bold; /* Optionally make text bold */
+}
+
+
+  
